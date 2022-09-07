@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%\n' $DECIMAL
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
